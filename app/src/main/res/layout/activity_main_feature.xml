@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vision_gradient"
+    tools:context=".MainFeature">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/telex_regular"
+        android:letterSpacing="0.2"
+        android:text="FEATURE"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:paddingHorizontal="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="26dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/kamera"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETEKSI"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/baca"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACA"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="26dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hitung"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HITUNG"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/kalender"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KALENDER"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="26dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/cuaca"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CUACA"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/baterai"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BATERAI"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="26dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lokasi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOKASI"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/kotak_fitur"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/exit"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELUAR"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </GridLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
