@@ -17,6 +17,15 @@
         android:theme="@style/Theme.BlindApp"
         tools:targetApi="31">
         <activity
+            android:name=".Fitur.Kalender"
+            android:exported="false" />
+        <activity
+            android:name=".Fitur.Kalkulator"
+            android:exported="false" />
+        <activity
+            android:name=".Fitur.Deteksi"
+            android:exported="false" />
+        <activity
             android:name=".MainFeature"
             android:exported="false" />
         <activity
